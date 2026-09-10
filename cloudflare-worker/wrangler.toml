@@ -1,0 +1,6 @@
+name = "toppers-contact-form"
+main = "contact-worker.js"
+compatibility_date = "2026-01-01"
+
+# Set the secret after first deploy (or before, doesn't matter):
+#   wrangler secret put RESEND_API_KEY

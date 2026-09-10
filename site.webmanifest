@@ -1,0 +1,25 @@
+{
+  "name": "Toppers Classroom — BCS Preparation Platform",
+  "short_name": "Toppers Classroom",
+  "description": "Bangladesh's trusted BCS preparation platform: live classes, recorded lectures, model tests, current affairs and mentor support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A1E3D",
+  "theme_color": "#0A1E3D",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
