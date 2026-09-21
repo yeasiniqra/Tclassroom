@@ -1,74 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
   <url>
     <loc>https://toppersclassroom.com/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-18</lastmod>
     <image:image>
       <image:loc>https://toppersclassroom.com/images/og-image.jpg</image:loc>
       <image:title>Toppers Classroom logo</image:title>
     </image:image>
   </url>
+
+  <!-- About -->
   <url>
-    <loc>https://toppersclassroom.com/course-special-bcs-health-batch-01.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://toppersclassroom.com/about/</loc>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+
+  <!-- Course pages -->
+  <url>
+    <loc>https://toppersclassroom.com/bcs-health-cadre-course-batch-01/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/course-special-bcs-health-batch-02.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://toppersclassroom.com/bcs-health-cadre-course-batch-02/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/course-special-bcs-health-batch-03.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://toppersclassroom.com/bcs-health-cadre-course-batch-03/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/course-51st-bcs-general-batch-01.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://toppersclassroom.com/51st-bcs-preliminary-course-batch-01/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/course-51st-bcs-general-batch-02.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://toppersclassroom.com/51st-bcs-preliminary-course-batch-02/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/course-51st-bcs-general-batch-03.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://toppersclassroom.com/51st-bcs-preliminary-course-batch-03/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+
+  <!-- Blog articles -->
+  <url>
+    <loc>https://toppersclassroom.com/bcs-preliminary-study-plan/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/blog-preliminary-study-plan.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://toppersclassroom.com/bangladesh-affairs-bcs-topics/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/blog-bangladesh-affairs-topics.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://toppersclassroom.com/bcs-written-answer-structure/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/blog-written-answer-structure.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://toppersclassroom.com/bcs-viva-questions/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+
+  <!-- Free study resources -->
+  <url>
+    <loc>https://toppersclassroom.com/bcs-preliminary-routine/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
-    <loc>https://toppersclassroom.com/blog-viva-questions.html</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://toppersclassroom.com/bangladesh-affairs-notes/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
+  <url>
+    <loc>https://toppersclassroom.com/bcs-written-answer-templates/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://toppersclassroom.com/bcs-viva-question-bank/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+
 </urlset>

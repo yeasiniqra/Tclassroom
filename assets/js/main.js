@@ -529,6 +529,45 @@
     startAutoplay();
   }
 
+  /* ---------- FAQ accordion ---------- */
+  var faqItems = $$('.faq-item');
+  if (faqItems.length) {
+    var closeFaq = function (item) {
+      var btn = $('.faq-q', item), panel = $('.faq-a', item);
+      item.classList.remove('open');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+      if (panel) panel.style.height = '0px';
+    };
+
+    faqItems.forEach(function (item) {
+      var btn = $('.faq-q', item);
+      var panel = $('.faq-a', item);
+      if (!btn || !panel) return;
+
+      btn.addEventListener('click', function () {
+        var isOpen = item.classList.contains('open');
+        // one answer at a time, as in the design
+        faqItems.forEach(function (other) { if (other !== item) closeFaq(other); });
+
+        if (isOpen) { closeFaq(item); return; }
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+        // an explicit px height is what makes the CSS transition animate;
+        // 'auto' would jump straight to the end with no tween
+        panel.style.height = reduced ? 'auto' : panel.scrollHeight + 'px';
+      });
+    });
+
+    // a panel left open across a resize keeps a stale pixel height and clips
+    window.addEventListener('resize', function () {
+      faqItems.forEach(function (item) {
+        if (!item.classList.contains('open')) return;
+        var panel = $('.faq-a', item);
+        if (panel) panel.style.height = panel.scrollHeight + 'px';
+      });
+    });
+  }
+
   /* ---------- footer year ---------- */
   $('#year').textContent = new Date().getFullYear();
 })();
