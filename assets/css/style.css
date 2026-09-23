@@ -226,7 +226,8 @@ s{text-decoration:line-through}
   width:calc(var(--fig-h)*.845);aspect-ratio:1;border-radius:50%;
   border:2.5px solid var(--gold);
   clip-path:polygon(0 0,100% 0,100% 60%,0 60%);
-  opacity:.85;animation:ringPulse 5s ease-in-out infinite;
+  opacity:.85;
+  /* animation:ringPulse 5s ease-in-out infinite; */
 }
 @keyframes ringPulse{50%{transform:translateX(-50%) scale(1.03);opacity:.55}}
 
@@ -1677,7 +1678,7 @@ span.revMobile {
    re-declared alongside each width so the .arc glow keeps tracking it.
    Ratio: 1086 / 865 = 1.2555
    ========================================================================== */
-.founder-shot img{position:static;top:auto;max-width:100%}
+.founder-shot img{position:static;top:auto;max-width:100%; margin-left: 20px;}
 
 @media (max-width:1024px){
   .hero-visual{--fig-h:452px;width:100%;min-height:0;height:auto;align-self:end}
